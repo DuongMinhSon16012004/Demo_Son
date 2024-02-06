@@ -78,11 +78,19 @@ p {
     padding: 16px;
 }
 .button-link {
-    color: #fff;
-    background-color: #1b74e4;
-    font-size: 1.6rem;
+    color: #333;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid #333;
 
     /* Bỏ gạch chân mặc định của thẻ a */
     text-decoration: none;
-    padding:8px 16px;
+}
+
+.button-link:hover {
+    color: #fff;
+    background-color: #333;
+    
 }
