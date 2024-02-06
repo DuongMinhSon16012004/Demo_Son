@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 /* Lựa chọn toàn bộ các thẻ */
 * {
     /* `font-style: italic` là chữ nghiêng */
@@ -66,4 +70,19 @@ h3, h4 {
 [class]::after {
     /* Bạn có thể comment dòng dưới đây để biết tác dụng của nó */
     content: " ("  attr(class) ")";
+}
+
+
+p {
+    background-color: #ebebeb;
+    padding: 16px;
+}
+.button-link {
+    color: #fff;
+    background-color: #1b74e4;
+    font-size: 1.6rem;
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+    padding:8px 16px;
 }
