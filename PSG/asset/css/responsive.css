@@ -1,0 +1,261 @@
+/* PC */
+@media (min-width: 64em) {
+    #header .mb-menu-icon {
+        display: none;
+    }
+    .buy-button:hover {
+        background-color: #ccc;
+        color:#000;
+    }
+    #nav > li:hover > a {  
+        background-color: #ccc;
+        color: black;
+    }
+    #header .search:hover {
+        background-color: #f44336;
+    }
+    .send-btn:hover {
+        cursor: pointer;
+        background-color: #ccc;
+        color:#000;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header .mb-menu-icon {
+        display: none;
+    }
+    .buy-button:active {
+        background-color: #ccc;
+        color:#000;
+    }
+    #nav > li:active > a { 
+        background-color: #ccc;
+        color: black;
+    }
+    #header .search:active {
+        background-color: #f44336;
+    }
+    .send-btn:active {
+        cursor: pointer;
+        background-color: #ccc;
+        color:#000;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em ) {
+    #slider .text {
+        bottom: 28px;
+        font-size: 12px;
+        line-height: 0.2;
+    }
+
+
+
+   #nav li {
+        display: block;
+    }
+    #nav:first-child {
+        display: inline-block;
+    }
+    #nav > li:active > a {   
+        background-color: #ccc;
+        color: black;
+    }
+    #nav li:hover .subnav {
+        display: block;
+        position: initial;
+    }
+    #nav .subnav > li > a {
+        background-color: #000;
+        color: #fff;
+        padding-left: 40px;
+        
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    #header .search {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+
+
+
+
+    .formation {
+        min-height: 100px;
+    }
+    .formation-img {
+        display: none;
+    }
+
+    .name-players {
+        display: block;
+        color: #000;
+        font-size: 20px;
+        font-weight: 550;
+    }
+    .player {
+        width: 200px;
+        height: 200px;
+        border-radius: 0%;
+        top: none;
+        right: none;
+        display: block;
+        position: initial;
+        border-radius: 8px; 
+    }
+    .player:hover {
+        width: 200px;
+        height: 200px;
+        box-shadow: 0px 0px 5px 8px #ccc;
+    }
+    .player-position {
+        all: unset;
+        min-height: 100%;
+        display: inline-block;
+        padding: 17px;
+    }
+    .captain {
+        display: none;
+    }
+    .info {
+        bottom: auto;
+        right: auto;
+    }
+    
+    
+
+    .m3p, 
+    .messi,
+    .ney,
+    .wij,
+    .par,
+    .ver,
+    .ber,
+    .mar,
+    .ram,
+    .hak,
+    .don {
+        transform: none;
+    }
+    .m3p-img {
+        margin-left:
+    }  
+    .messi-img {
+        margin-left: -52px;
+    } 
+    .ney-img {
+        margin-left: -40px;
+    }  
+    .wij-img {
+        margin-left: -74px;
+    }  
+    .ver-img {
+        margin-left: -51px;
+    }  
+    .ber-img {
+        margin-left: -85px;
+    }  
+    .mar-img {
+        margin-left: -64px;
+    }  
+    .ram-img {
+        margin-left: -12px;
+    }  
+    .hak-img {
+        margin-left: -46px;
+    }  
+    .don-img {
+        margin-left: -66px;
+    }  
+
+
+
+
+    .buy-button {
+        width: 100%;
+        font-size: 17px;
+    }
+    .buy-button:active {
+        background-color: #ccc;
+        color:#000;
+    }
+
+
+
+    .contact-body {
+        display: block;
+    }
+    
+    .contact-left p {
+        line-height: 3;
+        font-size: 16px;
+        padding: 3px;
+    }
+    .contact-left {
+        width: 100%;
+    }
+    .contact-right {
+        width: 100%;
+    }
+    /* .ct-delete {
+        display: none;
+    } */
+    
+    
+    .ct-input {
+        width: 100%;
+    }
+    .ct-name, .ct-email {
+        float: none;
+        width: 100%;
+    }
+    .ct-name-email {
+        padding-bottom: 0px;
+    }
+    .contact-right {
+        line-height: 3.5;
+    }
+    .send-btn {
+        width: 100%;
+    }
+
+    .send-btn:active {
+        cursor: pointer;
+        background-color: #ccc;
+        color:#000;
+    }
+
+
+    .match {
+        display: block ;
+    }
+    .match-list {
+        width: auto;
+        float: none;
+        padding: 12px 0;
+    }
+
+
+    
+    .footer-icon a {
+        font-size: 45px;
+        width: 48px;
+    }
+    .footer-icon a:hover {
+        font-size: 50px;
+    }
+    #by {
+        padding-top: 40px;
+    }
+    
+}
+
